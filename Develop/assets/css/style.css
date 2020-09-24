@@ -1,13 +1,16 @@
+/* Set elements to view the same among all browsers */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Style body of page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Style all header tags */ 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +44,18 @@ body {
     margin-left: 25px;
 }
 
+/* Style all a href attributes */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Style all p elements */
 p {
     font-size: 16px;
 }
 
+/* Style the specified class attributes */
 .hero {
     height: 800px;
     width: 100%;
@@ -101,6 +107,14 @@ p {
     color: #ffffff;
 }
 
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style all headers or imgs within a certain class attribute */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -134,15 +148,6 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -170,13 +175,16 @@ p {
     font-size: 36px;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
 .footer h2 {
     font-size: 20px;
+}
+
+/* Style multiple classes in one line */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
